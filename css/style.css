@@ -26,6 +26,7 @@ h1{
 }
 p{
     font-size: 19px;
+    text-align: justify;
 }
 span{
     color: rgb(248, 122, 3);
@@ -52,7 +53,7 @@ span{
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 25%)
 }
 .bg-img{
-    background-image: url(/images/shapes/7.png);
+    background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;  
      
@@ -71,15 +72,20 @@ span{
     border-radius: 30px;
 }
 .friut{
-    display: flex;
-    width: 50%;
-    padding-left: 10%;
+    display: flex;    
+    padding: 0 5%; 
+}
+.friut h1{
+    text-align: center;
+}
+.friut p{
+    text-align: justify;
 }
 .item-all{
     background-color: rgb(226, 225, 225);
     border: ;
     border-radius: 35px;
-    padding: 10px;
+    padding: 30px;
     margin-left: 20px;
     box-shadow: 2px 2px 12px rgba(236, 234, 234, 0.25);
     width: 100%;  
@@ -87,8 +93,9 @@ span{
 .foverite-friut{
     align-items: center;
     text-align: center;
+    padding: 30px 20%;
 }
 .foverite-friut h1{
     font-size: 50px;
-    color: rgb(97, 94, 94)
+    color: rgb(97, 94, 94)    
 }
