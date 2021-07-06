@@ -1,88 +1,21 @@
-body{
-    margin: 0%;
-    padding: 0%;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
 }
-li {
-    display: inline;
-
-/*======================*/
-
-/*---------------header---------------------------*/
-
-header{
-    justify-content: center
-    display: ;   
+body{
+    font-family: montserrat;
 }
-.flexible{
-    display: flex;
-    width: 50%;
-}
-.top{
-    padding: 5px 5%;
-    background-color: aquamarine;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f6f5f6;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+nav{
+    height: 80px;
     width: 100%;
-    padding: 0px 5%;
-    font-size: 18px;
+    background: #34495e;
+}
+label .logo{
+    font-size: 35px;
     font-weight: bold;
-}
-.menu-left{
-    width: 50%;
-    float: left;
-}
-.menu-left a{
-    padding: 0px 20px;
-    background-color: tomato;
-    border: none;
-    border-radius: 0px 15px;
-}
-.menu-left a:hover{
-    background-color: darkgreen;
     color: white;
-    border: none;
-    border-radius: 0px 15px;
+    padding: 0 100px;
+    line-height: 80px;
 }
-.menu-left ul .active{
-    background-color: darkgreen;
-    color: white;
-    border: none;
-    border-radius: 0px 15px;
-
-
-
-
-
-
-/*======================*/
-
-/*---------------main---------------------------*/
-
-
-
-
-
-
-/*======================*/
-
-/*---------------footer---------------------------*/
-
-
-
-
-
-
-/*======================*/
